@@ -1,0 +1,65 @@
+#banner-section .heading-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#banner-section .nav-container {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#banner-section .nav-container .row {
+  width: 100%;
+}
+
+#banner-section .nav-container .row .column-half {
+  width: 50%;
+  padding: 50px;
+}
+
+#banner-section .nav-container .row .column-half img {
+  width: 70px;
+}
+
+#banner-section .nav-container .row .column-half .heading1 {
+  font-size: 7em;
+  color: #fff;
+  font-family: arial;
+  text-transform: uppercase;
+}
+
+#banner-section .nav-container .row .line {
+  border-bottom: 1px solid #a59d9d;
+  width: 100%;
+}
+
+#banner-section .nav-link-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#banner-section .column-1 {
+  width: 50%;
+}
+
+#banner-section .column-1 .nav-links li {
+  color: #fff;
+  text-transform: uppercase;
+  list-style: none;
+  margin: 15px 0px;
+  font-size: 18px;
+  margin-right: 60px;
+}
+/*# sourceMappingURL=styles.css.map */
